@@ -1,0 +1,65 @@
+.cloud-gradient {
+  background-color: #FFDEE9;
+background-image: linear-gradient(180deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .top-img{
+    padding-top: 30px;
+    padding-left: 80%;
+    align-self: center;
+  }
+  .bot-img {
+    padding-left: 10%;
+  }
+  .top-container{
+    height: 650px;
+  }
+  .title{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+  }
+  h1.name {
+    font-size: 100px;
+  }
+  h3.subname{
+    padding-top: 30px;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  .pfptxt{
+    font-family: 'Merriweather', serif;
+    color: rgb(57, 93, 161);
+  }
+  .aboutme{
+    color: black;
+  }
+  .mid-container {
+    padding-left: 30%;
+    padding-bottom: 10%;
+    padding-right: 30%;
+    text-align: center;
+  }
+  .bottom-container{
+    font-family: 'Merriweather', serif;
+  }
+  .ach {
+    font-family: 'Merriweather', serif;
+  }
+  .headd {
+    font-family: 'Merriweather', serif;
+    color: rgb(57, 93, 161);
+  }
+  
